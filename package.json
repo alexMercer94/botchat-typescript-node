@@ -8,7 +8,7 @@
         "prestart": "npm run build",
         "dev": "ts-node src/start.ts",
         "dev:watch": "nodemon",
-        "build": "rimraf ./build/ && tsc",
+        "build": "rm ./build/ && tsc",
         "start": "node build/start.js"
     },
     "keywords": [],
